@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require 'bundler/setup'
-require 'evropochta'
+require "bundler/setup"
+require "evropochta"
 
-require 'pry'
+require "pry"
 Pry.start(__FILE__)
