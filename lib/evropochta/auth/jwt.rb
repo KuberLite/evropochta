@@ -16,7 +16,7 @@ module Evropochta
           Packet: {
             JWT: "null",
             MethodName: "GetJWT",
-            ServiceNumber: SERVICE_NAME,
+            ServiceNumber: SERVICE_NUMBER,
             Data: {
               LoginName: USER_LOGIN_NAME,
               Password: USER_PASSWORD,
