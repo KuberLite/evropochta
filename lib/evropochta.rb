@@ -12,6 +12,7 @@ require_relative "evropochta/postal/types_dir"
 require_relative "evropochta/postal/weight_type_dir"
 require_relative "evropochta/postal/offices_in"
 require_relative "evropochta/postal/offices_out"
+require_relative "evropochta/postal/calculation_tariff"
 
 module Evropochta
 end
