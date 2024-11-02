@@ -1,4 +1,5 @@
 require "dotenv/load"
+require "logger"
 require_relative "evropochta/version"
 require_relative "evropochta/config"
 require_relative "evropochta/services/api_service"
@@ -24,4 +25,5 @@ require_relative "evropochta/postal/group_order"
 require_relative "evropochta/postal/delivery_time"
 
 module Evropochta
+  LOG = Logger.new($stdout, level: :warn)
 end

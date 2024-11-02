@@ -1,7 +1,8 @@
 PATH
   remote: .
   specs:
-    example (0.2.0)
+    evropochta (0.2.0)
+      logger
 
 GEM
   remote: https://rubygems.org/
@@ -12,6 +13,7 @@ GEM
     dotenv (3.1.4)
     json (2.7.5)
     language_server-protocol (3.17.0.3)
+    logger (1.4.3)
     method_source (1.1.0)
     minitest (5.25.1)
     minitest-rg (5.3.0)
@@ -60,7 +62,7 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv
-  example!
+  evropochta!
   minitest (~> 5.11)
   minitest-rg (~> 5.3)
   pry

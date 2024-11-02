@@ -7,7 +7,7 @@ module Evropochta
         Services::Shared.request(
           "Postal.DeliveryTime",
           Number: track_number,
-          Address1IdReciever: address1_id_reciever,
+          Address1IdReciever: address1_id_reciever
         )
       end
     end

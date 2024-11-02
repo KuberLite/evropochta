@@ -9,7 +9,7 @@ module Evropochta
           {
             PostalItemExternalId: postal_item_external_ids,
             SerialNumber: serial_numbers,
-            DateTransfer: date_transfer,
+            DateTransfer: date_transfer
           }
         )
       end
