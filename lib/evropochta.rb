@@ -19,6 +19,7 @@ require_relative "evropochta/postal/change_order"
 require_relative "evropochta/postal/order_info"
 require_relative "evropochta/postal/tracking"
 require_relative "evropochta/postal/history_orders"
+require_relative "evropochta/postal/get_pdf_content"
 
 module Evropochta
 end
