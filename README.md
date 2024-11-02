@@ -1,11 +1,15 @@
 ## Quick start
 
 ```
-gem install example
+gem install evropochta
 ```
 
 ```ruby
-require "example"
+require "evropochta"
+```
+
+```ruby
+gem "evropochta", :git => "https://github.com/KuberLite/evropochta.git"
 ```
 
 ## Support
