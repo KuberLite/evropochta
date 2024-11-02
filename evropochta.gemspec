@@ -3,12 +3,12 @@
 require_relative "lib/evropochta/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "example"
+  spec.name = "evropochta"
   spec.version = Evropochta::VERSION
   spec.authors = ["Denis Grahovskiy"]
   spec.email = ["kuberlite@gmail.com"]
+  spec.summary = "Evropochta API wrapper"
 
-  spec.summary = ""
   spec.homepage = "https://github.com/KuberLite/evropochta"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0"
