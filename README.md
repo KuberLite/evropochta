@@ -1,3 +1,41 @@
+Evropochta Ruby Client
+=================
+
+A Ruby client for the Evropochta (https://evropochta.by/) API.
+
+<img src="https://avatars.mds.yandex.net/get-altay/14020851/2a00000191f166d6c586803a961a45011a4d/orig" alt="Evropochta Logo" width="300" height="200">
+
+## Installation
+
+Add to Gemfile.
+
+```
+gem 'evropochta'
+```
+
+Run `bundle install`.
+
+## Usage
+1. Add gem to your project
+2. Get your SERVICE_NUMBER and LOGIN_NAME/PASSWORD:
+   - SERVICE_NUMBER provides by Evropochta manager.
+   - LOGIN_NAME/PASSWORD - credentials for your bussines account.
+3. Create a .env file
+
+```bash
+API_URL=
+API_PORT=
+SERVICE_NUMBER=
+USER_LOGIN_NAME=
+USER_PASSWORD=
+USER_LOGIN_NAME_TYPE_ID=<1 
+```
+
+
+
+
+
+
 ## Quick start
 
 ```
