@@ -1,5 +1,9 @@
 # CHANGELOG.md
 
+## 0.2.1 (2024-11-02)
+Features:
+- Added logger
+
 ## 0.2.0 (2024-11-01)
 Features:
 - Added JWT token generation
