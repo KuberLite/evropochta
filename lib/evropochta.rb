@@ -14,6 +14,7 @@ require_relative "evropochta/postal/offices_in"
 require_relative "evropochta/postal/offices_out"
 require_relative "evropochta/postal/calculation_tariff"
 require_relative "evropochta/postal/put_order"
+require_relative "evropochta/postal/change_order"
 
 module Evropochta
 end
