@@ -6,8 +6,12 @@ require_relative "evropochta/auth/jwt"
 require_relative "evropochta/services/shared"
 require_relative "evropochta/addresses/search4"
 require_relative "evropochta/addresses/get_address_id"
+
 require_relative "evropochta/postal/delivery_type_dir"
 require_relative "evropochta/postal/types_dir"
+require_relative "evropochta/postal/weight_type_dir"
+require_relative "evropochta/postal/offices_in"
+require_relative "evropochta/postal/offices_out"
 
 module Evropochta
 end
