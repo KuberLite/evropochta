@@ -21,6 +21,7 @@ require_relative "evropochta/postal/tracking"
 require_relative "evropochta/postal/history_orders"
 require_relative "evropochta/postal/get_pdf_content"
 require_relative "evropochta/postal/group_order"
+require_relative "evropochta/postal/delivery_time"
 
 module Evropochta
 end
