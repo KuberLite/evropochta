@@ -3,7 +3,7 @@ module Evropochta
     module Search4
       module_function
 
-      def search4(address: "", limit_addresses: 10, address4_id: 0)
+      def call(address: "", limit_addresses: 10, address4_id: 0)
         Services::Shared.request(
           "Addresses.Search4",
           {

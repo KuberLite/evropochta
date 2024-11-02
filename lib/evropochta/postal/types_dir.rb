@@ -3,7 +3,7 @@ module Evropochta
     module TypesDir
       module_function
 
-      def types_dir
+      def call
         Services::Shared.request("Postal.TypesDir")
       end
     end

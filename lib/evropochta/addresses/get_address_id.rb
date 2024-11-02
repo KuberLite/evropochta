@@ -3,7 +3,7 @@ module Evropochta
     module GetAddressId
       module_function
 
-      def get_address_id(address4_id:, address3_name:, address2_name:, address1_name:, porch:, floorx:)
+      def call(address4_id:, address3_name:, address2_name:, address1_name:, porch:, floorx:)
         Services::Shared.request(
           "Addresses.GetAddressId",
           {
