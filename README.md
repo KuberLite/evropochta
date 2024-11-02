@@ -9,7 +9,7 @@ require "evropochta"
 ```
 
 ```ruby
-gem "evropochta", :git => "https://github.com/KuberLite/evropochta.git"
+gem "evropochta"
 ```
 
 ## Support
