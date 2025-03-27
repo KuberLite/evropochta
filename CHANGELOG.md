@@ -1,5 +1,9 @@
 # CHANGELOG.md
 
+## 0.3.0 (2025-03-25)
+Features:
+- Added required keys validation for PutOrder method
+
 ## 0.2.1 (2024-11-02)
 Features:
 - Added logger
